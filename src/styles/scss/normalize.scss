@@ -1,0 +1,96 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+p, span {
+  font-family: 'Sen', sans-serif;
+  color: $gray;
+  font-size: 18px;
+}
+
+input {
+  font-family: 'Sen', sans-serif;
+  color: $formsgray;
+  font-size: 16px;
+  border: none;
+}
+button {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+  color: $white;
+  border: none;
+  cursor: pointer;
+}
+html, body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  line-height: 24px; 
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  color: $gray;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Sen', sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+.section {
+  display: flex;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-bottom: 0px;
+  font-family: 'Sen', sans-serif;
+  color: $purple;
+}
+
+ul {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  list-style: none;
+}
+
+p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+a {
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  user-select: none;
+}
+
+img {
+  border-style: none;
+  user-select: none;
+}
+svg {
+  user-select: none;
+}

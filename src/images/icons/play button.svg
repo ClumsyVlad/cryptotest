@@ -1,0 +1,5 @@
+<svg version="1.1" id="playbutton" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 63 63" style="enable-background:new 0 0 63 63;" xml:space="preserve">
+<path id="playcircle" class="playcircle" d="M31.5,63C48.9,63,63,48.9,63,31.5S48.9,0,31.5,0S0,14.1,0,31.5S14.1,63,31.5,63z"/>
+<path id="playarrow" class="playarrow" d="M26,23l16,10L26,43V23z"/>
+</svg>

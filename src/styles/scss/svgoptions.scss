@@ -1,0 +1,21 @@
+/* Styles for interacting with inline svg objects */
+.mainlogoimage {
+    fill: $logopurple;
+    stroke-width: 2;
+    stroke: $logopurple;
+    transition: all 0.55s ease;
+    stroke-dashoffset: 200;
+    stroke-dasharray: 250%;
+    stroke-linecap: round;
+}
+.main-logo {
+    &:hover {
+        
+        .mainlogoimage {
+            stroke: $blue;
+            fill: $blue;
+            stroke-dashoffset: 0;
+            fill: transparent;
+        }
+    }
+}

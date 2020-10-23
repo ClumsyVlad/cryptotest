@@ -1,0 +1,281 @@
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        max-width: 100vw;
+    }
+    .wrapper--tight {
+        max-width: 400px;
+    }
+    .header__nav {
+        padding: 15px;
+    }
+    .section__content--hero {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0 85px;
+    }
+    .section__content--half {
+        max-width: 75%;
+        flex-basis: auto;
+    }
+    .section__video {
+        order: 3;
+        margin-top: 100px;
+        width: 70%;
+        transform: translate(0);
+    }
+    .section--hero {
+        max-height: none;
+        height: auto;
+        background-size: auto 70%;
+        background-position: top center;
+    }
+    .scroll-down {
+        position: static;
+        order: 2;
+        margin-top: 120px;
+        transform: translate(0);
+    }
+    .footer {
+        padding: 40px 15px 45px;
+    }
+    .footer__item {
+        padding: 0 5px;
+    }
+    /*Content*/
+    .gallery .gallery__pagination {
+        visibility: visible;
+    }
+    .card {
+        &:not(:last-child) {
+            margin-right: 25px;
+        }
+    }
+    .socials {
+        bottom: 15vh;
+        right: 15px;
+    }
+    /* Modals */
+    .modal__container {
+        max-width: 80vw;
+    }
+}
+@media screen and (max-height: 850px) and (max-width: 1200px) {
+    .section__title--hero {
+        margin-top: 40px;
+    }
+    .section__video {
+        margin-top: 140px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .section__video {
+        margin-top: 180px;
+    }
+}
+@media screen and (max-width: 450px) {
+    p, span {
+        font-size: 14px;
+    }
+    .header__image {
+        max-width: 55px;
+    }
+    .header__item {
+        &:not(:first-child) {
+            margin-left: 15px;
+        }
+    }
+    .section {
+        &:not(#team) {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .section--hero {
+        background-size: auto 80%;
+    }
+    .section__content--half {
+        max-width: none;
+    }
+    .section__content--hero {
+        padding: 10px 0 40px;
+    }
+    .section__title--hero {
+        margin-top: 0;
+        font-size: 24px;
+    }
+    .section__video {
+        margin-top: 75px;
+        width: 90%;
+    }
+    .subscription--hero {
+        margin-top: 50px;
+    }
+    .form__item--row {
+        flex-direction: column;
+        background-color: transparent;
+    }
+    .subscription__input {
+        flex-basis: auto;
+        margin-bottom: 16px;
+    }
+    .scroll-down {
+        margin-top: 40px;
+        .scrolldownicon {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .gallery {
+        padding: 25px 15px 90px;
+    }
+    .card {
+        flex-basis: 135px;
+        padding: 0 5px;
+        &:not(:last-child) {
+            margin-right: 5px;
+        }
+    }
+    .card__image {
+        width: 115px;
+    }
+    .card__title {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .card__subtitle {
+        margin-top: 5px;
+    }
+    .card__text {
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+    .card__socials {
+        margin-top: 15px;
+    }
+    .form {
+        padding: 25px 15px;
+    }
+    .footer {
+        padding: 35px 15px 5px;
+    }
+    .footer__nav {
+        flex-direction: column;
+        padding-bottom: 45px;
+    }
+    .header__logos.footer__nav-item {
+        align-self: flex-start;
+    }
+    .feedback {
+        margin-top: 15px;
+    }
+    .feedback__link {
+        margin-top: 10px;
+    }
+    .footer__news {
+        margin-top: 40px;
+    }
+    .footer__list {
+        flex-wrap: wrap;
+    }
+    .footer__item {
+        flex-basis: 50%;
+        margin-bottom: 15px;
+        &:not(:first-child) {
+            &:before {
+                visibility: hidden;
+            }
+        }
+    }
+    .footer__link {
+        font-size: 12px;
+    }
+    .socials {
+        bottom: 8vh;
+        .socials__link {
+            width: 30px;
+            height: 30px;
+            padding: 6px;
+        }
+    }
+    .modal__container {
+        max-width: 90vw;
+    }
+    .modal__body {
+        padding: 40px 15px 20px;
+    }
+    .modal__header {
+        font-size: 24px;
+    }
+    .modal__subheader {
+        margin-top: 20px;
+    }
+    .modal__text {
+        margin: 10px 0px 5px;
+    }
+    .modal__close {
+        top: 10px;
+        right: 10px;
+    }
+}
+@media screen and (max-height: 450px) and (orientation: landscape) {
+    .section--hero {
+        height: auto;
+    }
+    .section__content--hero {
+        margin-top: 10px;
+    }
+    .section__title--hero {
+        margin-top: 0;
+    }
+    .modal__container--video {
+        .modal__body {
+            padding: 25px;
+        }
+    }
+    .modal__container {
+        max-width: 90vw;
+    }
+    .modal__body {
+        padding: 40px 15px 20px;
+    }
+    .modal__header {
+        font-size: 24px;
+    }
+    .modal__subheader {
+        margin-top: 20px;
+    }
+    .modal__text {
+        margin: 10px 0px 5px;
+    }
+    .modal__close {
+        top: 10px;
+        right: 10px;
+    }
+    .footer__news .button {
+        padding: 10px;
+    }
+}
+/* Retina Apple screens */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    .section--hero {
+        background-image: url('../images/backgrounds/hero-background@2x.png');
+    }
+}
+/* High dpi not apple screens */
+@media 
+only screen and ( -webkit-min-device-pixel-ratio: 1.3 ),
+only screen and (    min--moz-device-pixel-ratio: 1.3 ),
+only screen and (      -o-min-device-pixel-ratio: 2.6/2 ),
+only screen and (         min-device-pixel-ratio: 1.3 ),
+only screen and ( min-resolution: 124.8dpi ),
+only screen and ( min-resolution: 1.3dppx ) {
+    .section--hero {
+        background-image: url('../images/backgrounds/hero-background@2x.png');
+    }
+}

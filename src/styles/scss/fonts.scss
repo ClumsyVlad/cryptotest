@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Sen";
+    src: url("../fonts/Sen.woff2") format('woff2'),
+        url("../fonts/Sen.otf") format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Sen";
+    src: url("../fonts/Sen_Bold.woff2") format('woff2'),
+        url("../fonts/Sen_Bold.otf") format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans_S-B.woff2") format('woff2'),
+        url("../fonts/OpenSans_S-B.otf") format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
